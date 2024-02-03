@@ -1,0 +1,16 @@
+# Python compiled files
+*.pyc
+
+# Django cache files
+**/__pycache__/
+
+# Django migration cache files
+**/migrations/__pycache__/
+
+# Virtual environment directory
+env/
+
+# Ignore compiled Python files in specific directories
+blog/__pycache__/*.cpython-38.pyc
+django_project/__pycache__/*.cpython-38.pyc
+users/__pycache__/*.cpython-38.pyc
