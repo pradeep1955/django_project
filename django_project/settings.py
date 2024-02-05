@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'autos.apps.AutosConfig',
     'home.apps.HomeConfig',
     'blog.apps.BlogConfig',
+    'pics.apps.PicsConfig',
+    'chat.apps.ChatConfig',
     'users.apps.UsersConfig',
     'crispy_forms',
     'django.contrib.admin',

@@ -27,10 +27,13 @@ from django.views.static import serve
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include('home.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
     path("blog/", include('blog.urls')),
     path("ads/", include('ads.urls')),
     path("myarts/", include('myarts.urls')),
     path("autos/",include('autos.urls')),
+    path('pics/', include('pics.urls')),
+    path('chat/', include('chat.urls')),
     path('register/', user_views.register, name='register'),
     path('profile/', user_views.profile, name='profile'),
     path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
