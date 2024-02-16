@@ -1,0 +1,41 @@
+/* style.css */
+
+.base-body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 5;
+    padding: 5;
+}
+
+.base-body .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.base-body h1 {
+    color: #333;
+}
+
+.base-body p {
+    color: #666;
+}
+
+.base-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.base-body li {
+    margin-bottom: 10px;
+}
+
+.base-body a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.base-body a:hover {
+    text-decoration: underline;
+}
+
+/* Add more styles as needed */

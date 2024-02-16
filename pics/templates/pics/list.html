@@ -1,4 +1,6 @@
-{% extends "base_bootstrap.html" %}
+{% extends 'blog/base.html' %}
+
+{% block title %}My Custom Title: {{ settings.APP_NAME }} {% endblock %}
 {% block content %}
 <h1>Pics</h1>
 <p>
